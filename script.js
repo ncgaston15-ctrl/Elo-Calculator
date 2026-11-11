@@ -111,8 +111,8 @@ function calcElo(){
 
     let change1 = (newElo1 - prevElo1);
     let change2 = (newElo2 - prevElo2);
-    let formattedChange1 = change > 0 ? `+${change1.toFixed(1)}` : change1.toFixed(1);
-    let formattedChange2 = change > 0 ? `+${change2.toFixed(1)}` : change2.toFixed(1);
+    let formattedChange1 = change1 > 0 ? `+${change1.toFixed(1)}` : change1.toFixed(1);
+    let formattedChange2 = change2 > 0 ? `+${change2.toFixed(1)}` : change2.toFixed(1);
 
     document.getElementById("output").classList.remove("hidden");
     document.getElementById("output1").textContent = newElo1.toFixed(1);

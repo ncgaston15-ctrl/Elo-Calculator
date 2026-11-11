@@ -6,6 +6,8 @@
     Licensed under the MIT License. See the LICENSE.txt file for details.
 -->
 
+<!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -25,7 +27,7 @@
                 placeholder="Player 1's Elo" 
                 inputmode="numeric" 
                 step="0.1"
-                min="1000"><br>
+                min="1000">
             <input 
                 type="number" 
                 class="text" 
@@ -34,12 +36,18 @@
                 inputmode="numeric"
                 step="0.1"
                 min="1000"><br>
-            <input type="radio" id="win" name="winLose" value="win">
-            <label for="win">Player 1</label>
-            <input type="radio" id="lose" name="winLose" value="lose">
-            <label for="lose">Player 2</label>
-            <input type="radio" name="winLose" value="draw">
-            <label for="lose">Draw</label><br>
+            <label class="option">
+                <input type="radio" name="winLose" value="win">
+                <span>Player 1</span>
+            </label>
+            <label class="option">
+                <input type="radio" name="winLose" value="lose">
+                <span>Player 2</span>
+            </label>
+            <label class="option">
+                <input type="radio" name="winLose" value="draw">
+                <span>Draw</span>
+            </label><br>
             <input class="submit" type="submit">       
         </form>
         <p id="message"></p>

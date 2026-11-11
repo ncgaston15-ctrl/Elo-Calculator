@@ -16,7 +16,7 @@ This calculator uses a dynamic **K-factor** based on the player's current rating
 * Or locally: Clone this folder and run 'index.html' in a browser.
 
 ## Credits
-Built by me, Nathanial Gaston, with help from my friend, James Franchi.
+Built by me, Nathanial Gaston, with inspiration from my friend, James Franchi.
 
 ## License
 Copyright &copy; 2026 Nathanial Gaston.

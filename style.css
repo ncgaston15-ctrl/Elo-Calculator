@@ -29,6 +29,7 @@ input.submit {
     border: none;
     border-radius: 6px;
     height: 30px;
+    padding: 5px;
     margin-top: 10px;
     color: white;
     width: 100px;
@@ -52,14 +53,35 @@ table {
 }
 
 table th {
-    padding: 12px 15px;
+    padding: 10px 15px;
     font-weight: bold;
     border: 1px solid black;
     background-color: #f0f0f0;
 }
 
 table td {
-    padding: 12px 15px;
+    padding: 10px 15px;
     font-size: 16px;
     border: 1px solid black;
+}
+
+.option input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.option span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    transition: 0.2s;
+    border: 1px solid black;
+}
+
+.option input[type="radio"]:checked + span {
+    background-color: #5050ff;
+    color: white;
 }

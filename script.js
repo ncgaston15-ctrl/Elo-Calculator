@@ -109,13 +109,16 @@ function calcElo(){
     messageDisplay.textContent = "";
     messageDisplay.style.color = "black";
 
-    console.log(newElo1, newElo2);
+    let change1 = (newElo1 - prevElo1);
+    let change2 = (newElo2 - prevElo2);
+    let formattedChange1 = change > 0 ? `+${change1.toFixed(1)}` : change1.toFixed(1);
+    let formattedChange2 = change > 0 ? `+${change2.toFixed(1)}` : change2.toFixed(1);
 
     document.getElementById("output").classList.remove("hidden");
     document.getElementById("output1").textContent = newElo1.toFixed(1);
     document.getElementById("output2").textContent = newElo2.toFixed(1);
-    document.getElementById("change1").textContent = (newElo1 - prevElo1).toFixed(1);
-    document.getElementById("change2").textContent = (newElo2 - prevElo2).toFixed(1);
+    document.getElementById("change1").textContent = formattedChange1;
+    document.getElementById("change2").textContent = formattedChange2;
 }
 
 const form = document.getElementById("input");

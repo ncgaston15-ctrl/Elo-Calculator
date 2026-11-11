@@ -6,7 +6,7 @@ A web app that calculates players' elo after a match.
 * The web app outputs the new elo ratings for both players.
 
 ## Installation
-* Using github pages: Go to my page on [Github Pages](https://https://ncgaston15-ctrl.github.io/Elo-Calculator/).
+* Using github pages: Go to my page on [Github Pages](https://ncgaston15-ctrl.github.io/Elo-Calculator/).
 * Or locally: Clone this folder and run 'index.html' in a browser.
 
 ## Credits

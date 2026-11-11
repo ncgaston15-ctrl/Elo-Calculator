@@ -114,6 +114,8 @@ function calcElo(){
     let formattedChange1 = change1 > 0 ? `+${change1.toFixed(1)}` : change1.toFixed(1);
     let formattedChange2 = change2 > 0 ? `+${change2.toFixed(1)}` : change2.toFixed(1);
 
+    console.log(newElo1, newElo2);
+
     document.getElementById("output").classList.remove("hidden");
     document.getElementById("output1").textContent = newElo1.toFixed(1);
     document.getElementById("output2").textContent = newElo2.toFixed(1);

@@ -1,3 +1,9 @@
+/*
+Elo Calculator - script.js 
+Copyright (c) 2026 Nathanial Gaston
+Licensed under the MIT License. See the LICENSE.txt file for details.
+*/
+
 function calcElo(){
     // declare varables
     const textBox1 = document.getElementById("elo1");

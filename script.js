@@ -1,8 +1,9 @@
-/*
-Elo Calculator - script.js 
-Copyright (c) 2026 Nathanial Gaston
-Licensed under the MIT License. See the LICENSE.txt file for details.
+/* 
+    Elo-Calculator 
+    Copyright (C) 2026 Nathanial Gaston
+    Licensed under the MIT license. See the LICENSE file for more details.
 */
+
 
 function calcElo(){
     // declare varables

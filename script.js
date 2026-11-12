@@ -121,9 +121,10 @@ function calcElo(){
     document.getElementById("output2").textContent = newElo2.toFixed(1);
     document.getElementById("change1").textContent = formattedChange1;
     document.getElementById("change2").textContent = formattedChange2;
+    document.getElementById("initial1").textContent = prevElo1.toFixed(1);
+    document.getElementById("initial2").textContent = prevElo2.toFixed(1);
 
     // clear input fields
-
     document.getElementById("elo1").value = "";
     document.getElementById("elo2").value = "";
 }

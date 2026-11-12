@@ -6,8 +6,6 @@
     Licensed under the MIT License. See the LICENSE.txt file for details.
 -->
 
-<!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8">
@@ -18,13 +16,13 @@
 
     <body>
         <h1>Elo calculator</h1>
-        <p>Enter both players previous elo scores below and select the winner.</p>
+        <p>Enter both players previous elo ratings below and select the winner.</p>
         <form id="input">
             <input 
                 type="number" 
                 class="text" 
                 id="elo1" 
-                placeholder="Player 1's Elo" 
+                placeholder="Player 1's Rating" 
                 inputmode="numeric" 
                 step="0.1"
                 min="1000">
@@ -32,7 +30,7 @@
                 type="number" 
                 class="text" 
                 id="elo2" 
-                placeholder="Player 2's Elo" 
+                placeholder="Player 2's Rating" 
                 inputmode="numeric"
                 step="0.1"
                 min="1000"><br>
@@ -56,20 +54,25 @@
             <thead>
                 <tr>
                     <th></th>
-                    <th>Elo</th>
-                    <th>Change</th>
+                    <th>Player 1</th>
+                    <th>Player 2</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Player 1</td>
-                    <td id="output1"></td>
-                    <td id="change1"></td>
+                    <td>Initial Rating</td>
+                    <td id="initial1"></td>
+                    <td id="initial2"></td>
                 </tr>
                 <tr>
-                    <td>Player 2</td>
-                    <td id="output2"></td>
+                    <td>Change</td>
+                    <td id="change1"></td>
                     <td id="change2"></td>
+                </tr>
+                <tr>
+                    <td>New Rating</td>
+                    <td id="output1"></td>
+                    <td id="output2"></td>
                 </tr>
             </tbody>
         </table>

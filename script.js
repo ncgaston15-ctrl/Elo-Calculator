@@ -123,10 +123,6 @@ function calcElo(){
     document.getElementById("change2").textContent = formattedChange2;
     document.getElementById("initial1").textContent = prevElo1.toFixed(1);
     document.getElementById("initial2").textContent = prevElo2.toFixed(1);
-
-    // clear input fields
-    document.getElementById("elo1").value = "";
-    document.getElementById("elo2").value = "";
 }
 
 const form = document.getElementById("input");

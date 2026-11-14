@@ -83,6 +83,7 @@ h1 {
     border: 2px solid #D1D5DB;
     transition: 0.2s;
     text-align: center;
+    align-items: center;
     width: 100%;
 }
 

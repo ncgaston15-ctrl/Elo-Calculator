@@ -20,24 +20,31 @@
                 <h1>Elo calculator</h1>
                 <p>Enter both players previous elo ratings below and select the winner.</p>
                 <form id="input">
-                    <label>Player 1's Rating</label><br>
-                    <input 
+                    <label>
+                        <span>Player 1's Rating</span>
+                        <input 
                         type="number" 
                         class="text" 
                         id="elo1" 
                         placeholder="Enter rating" 
                         inputmode="numeric" 
-                        step="0.1"><br>
-                    <label>Player 2's Rating</label><br>
-                    <input 
+                        step="0.1">
+                    </label><br>
+
+                    <label>
+                        <span>Player 2's Rating</span>
+                        <input 
                         type="number" 
                         class="text" 
                         id="elo2" 
                         placeholder="Enter rating" 
                         inputmode="numeric"
-                        step="0.1"><br>
-                    <label>Who won the match?</label><br>
-                    <div class="options">
+                        step="0.1">
+                    </label><br>
+                    
+                    <label>
+                        <span>Who won the match?</span>
+                        <div class="options">
                         <label>
                             <input type="radio" name="winLose" value="win">
                             <span>Player 1</span>
@@ -51,6 +58,7 @@
                             <span>Draw</span>
                         </label>
                     </div>
+                    </label><br>
                     <input class="submit" type="submit" value="Calculate">     
                 </form>
                 <p id="message" class="message"></p>

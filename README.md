@@ -2,13 +2,7 @@
 A lightweight web-based Elo rating calculator built for a school club.
 
 ## How it works
-This calculator uses a dynamic **K-factor** based on the player's current rating to keep early ratings flexible and higher ratings stable:
-
-| Current Elo Rating | K-Factor |
-| :--- | :--- |
-| **1000 – 2100** | 32 |
-| **2100 – 2400** | 24 |
-| **Above 2400** | 16 |
+This calculator uses the standard Elo rating systemto update player scores after a match. Beating a higher-rated opponent awards more points than beating a lower-rated one.
 
 
 ## Installation
